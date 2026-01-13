@@ -1,0 +1,17 @@
+{
+  "name": "tiktok-store",
+  "version": "1.0.0",
+  "description": "Static demo store built for GitHub Pages",
+  "scripts": {
+    "build: css": "tailwindcss -i ./src/input.css -o ./dist/style.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./dist/style.css --watch",
+    "build":  "npm run build:css",
+    "dev": "npm run watch:css"
+  },
+  "keywords": ["tiktok", "ecommerce", "store"],
+  "author": "rightousmove",
+  "license":  "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
