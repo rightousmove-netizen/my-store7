@@ -1,0 +1,2 @@
+mkdir -p dist
+touch dist/style.css
